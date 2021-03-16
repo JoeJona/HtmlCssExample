@@ -1,0 +1,33 @@
+*,html,body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: deepskyblue;
+    height: 115px;
+    line-height: 115px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+header nav{
+    position: absolute;
+    right: 0;
+}
+.logo img{
+     margin-top: 10px;
+}
+ul li a{
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.5s ease-in;
+}
+ul li a:hover{
+    text-decoration: none;
+    color: #0bd315f1;
+    font-weight: 50px;
+}
